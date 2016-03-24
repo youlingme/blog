@@ -6,7 +6,11 @@
 title: Hexo
 subtitle:
 description:
+<<<<<<< HEAD
 author: John Doe
+=======
+author: youlingme
+>>>>>>> 7ac4a76f5e9c7bf03e1d1559fbad5ac3da60cb3f
 language:
 timezone:
 
@@ -63,9 +67,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+
+theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:youlingme/youlingme.github.io.git
+  branch: master
